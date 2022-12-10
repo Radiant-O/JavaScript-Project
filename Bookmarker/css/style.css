@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* border-color: #ccc; */
+    border:none;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    width: 70%;
+    background: #f4f4f4;
+    box-shadow: 2px 3px 3px #ccc;
+    border-radius: 5px;
+}
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    padding: 5px;   
+}
+.container{
+    background: #f4f4f4;
+    margin:0 auto;
+    margin-top: 3em;
+    /* margin-bottom: 2em; */
+    width: 70%;
+}
+#myform{
+    padding: 2em;
+    text-align: center;
+    display: block;
+}
+.form_header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 2.3em;
+    padding-bottom: 5px;
+}
+.input_head{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type="text"]{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 0.5em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    
+}
+input[type="text"]:hover,
+input[type="text"]:focus{
+    outline: 1px solid #aaa;
+}
+
+#bookmark_result{
+    /* background: #f4f4f4; */
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin: 15px auto;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.submit_btn{
+    padding: 8px;
+    font-size: 1em;
+    background: #4eadca;
+    margin-top: 10px;
+    border-radius: 5px;
+    border:none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit_btn:hover,
+.submit_btn:focus{
+    background: #4494af;
+    box-shadow: 2px 2px 2px #ccc;
+    outline: #aaa;
+}
+.site_footer{
+    margin:0 auto;
+    width: 70%;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+

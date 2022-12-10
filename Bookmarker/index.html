@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bookmarker Web App</title>
+</head>
+<body>
+    <header>
+        <h1>Bookmarker</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form action="" id="myform">
+                <h1 class="form_header">
+                    Bookmark Your Favorite Sites
+                </h1>
+                <label for="site" class="input_head">Site Name</label>
+                <input type="text" name="name" id="site_name" class="site_name" placeholder="Website Name">
+                <label for="link" class="input_head">Site URL</label>
+                <input type="text" name="url" id="site_url" class="site_url" placeholder="Website URL">
+                <button type="submit" class=submit_btn value="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="bookmark_container">
+            <div id="bookmark_result">
+            </div>
+        </div>
+    </main>
+    <footer class="site_footer" id="site_foot">&copy Abiodun_Bukoye, INC</footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
